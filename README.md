@@ -1,4 +1,4 @@
-# 🚀 Codveda Technology - Machine Learning Internship Portfolio
+#  Codveda Technology - Machine Learning Internship Portfolio
 
 Welcome to my official repository documenting my journey and projects as a Machine Learning Intern at **Codveda Technology**. 
 
@@ -15,7 +15,7 @@ To keep things organized, the tasks are divided into folders based on their diff
 
 ---
 
-## 🎯 Internship Progress & Completed Tasks
+##  Internship Progress & Completed Tasks
 
 ### ✅ Level 1: Basic Machine Learning
 In this level, I focused on preparing raw data and building foundational predictive models.
