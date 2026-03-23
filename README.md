@@ -28,9 +28,36 @@ In this level, I focused on preparing raw data and building foundational predict
   * Evaluated the model using MSE and R-squared.
   * **Result:** Achieved an impressive **82% ($R^2$) accuracy** thanks to the advanced preprocessing steps.
 
-###  Level 2: Intermediate Machine Learning
-*(Tasks will be uploaded here once assigned and completed)*
+###  ---
 
+## 📌 Level 2: Intermediate
+
+### Task 1: Logistic Regression for Binary Classification
+* **Objective:** Predict customer churn (classifying whether a customer will cancel their subscription or stay).
+* **Dataset:** Customer Churn Prediction Dataset.
+* **Tools Used:** Python, pandas, scikit-learn, matplotlib.
+* **Key Highlights:**
+  * Handled categorical data using One-Hot Encoding (`pd.get_dummies`) and Label Encoding.
+  * Applied feature scaling using `StandardScaler` for optimal model convergence.
+  * Evaluated the model using Accuracy, Precision, Recall, and plotted the ROC Curve (AUC).
+  * Calculated the Odds Ratio to interpret and extract the top 10 features driving customer churn.
+
+### Task 2: Decision Trees for Classification
+* **Objective:** Classify flower species using decision rules.
+* **Dataset:** Iris Dataset (Local file integration).
+* **Tools Used:** Python, pandas, scikit-learn, matplotlib.
+* **Key Highlights:**
+  * Implemented an algorithmic approach to **Hyperparameter Tuning** using nested loops.
+  * Dynamically discovered the optimal `max_depth` and splitting `criterion` (`gini` vs. `entropy`) to prevent overfitting.
+  * Plotted and visualized the final pruned decision tree.
+  * Created a side-by-side visual comparison of trees generated using different mathematical criteria to deeply analyze the model's decision-making process.
+
+---
+
+## 🛠️ Setup & Execution
+1. Clone this repository to your local machine.
+2. Ensure you have the required datasets in the appropriate directories.
+3. Open the Jupyter Notebooks and run the cells sequentially to reproduce the results and visualizations.
 ###  Level 3: Advanced Machine Learning
 *(Tasks will be uploaded here once assigned and completed)*
 
