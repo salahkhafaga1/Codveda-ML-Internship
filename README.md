@@ -58,9 +58,46 @@ In this level, I focused on preparing raw data and building foundational predict
 1. Clone this repository to your local machine.
 2. Ensure you have the required datasets in the appropriate directories.
 3. Open the Jupyter Notebooks and run the cells sequentially to reproduce the results and visualizations.
-###  Level 3: Advanced Machine Learning
-*(Tasks will be uploaded here once assigned and completed)*
+4. 
+# Level 3: Advanced Machine Learning 
+**Codveda Technology - Machine Learning Internship**
 
+This directory contains the final and most advanced tasks of the internship, focusing on solving a complex business problem—**Customer Churn Prediction**—using powerful ensemble and distance-based classification algorithms. 
+
+To ensure modularity and clarity, the project is divided into two main notebooks, culminating in a final model comparison.
+
+---
+
+##  Project Structure
+
+### Task 1: Random Forest Classifier (`Task1_RandomForest.ipynb`)
+* **Objective:** Build an ensemble learning model to classify customer churn and extract actionable business insights.
+* **Dataset:** Customer Churn Prediction Dataset (Imbalanced data).
+* **Key Implementations:**
+  * **Hyperparameter Tuning:** Utilized `GridSearchCV` with 5-fold Cross-Validation to find the optimal `n_estimators` and `max_depth`, prioritizing the F1-Score.
+  * **Feature Importance Analysis:** Extracted and visualized the top driving factors behind customer churn (e.g., *Total day minutes*, *Customer service calls*), providing highly interpretable results for business stakeholders.
+  * **Evaluation:** Achieved a perfect Precision score (1.00), minimizing false-positive churn alerts.
+
+### Task 2: Support Vector Machine (SVM) (`Task2_SVM.ipynb`)
+* **Objective:** Implement an SVM classifier, compare mathematical kernels, and visualize complex decision-making boundaries.
+* **Dataset:** Customer Churn Prediction Dataset.
+* **Key Implementations:**
+  * **Feature Scaling:** Applied `StandardScaler` to normalize the data, a crucial mathematical prerequisite for distance-based SVM algorithms.
+  * **Kernel Comparison:** Trained and evaluated both **Linear** and **RBF (Radial Basis Function)** kernels to handle both linear and non-linear data distributions.
+  * **Decision Boundary Visualization:** Successfully reduced dimensionality to plot a comprehensive **2D Decision Boundary**, visually demonstrating how the RBF kernel dynamically separates churn classes based on the top continuous features.
+
+###  Final Model Comparison (`Model_Comparison.ipynb` / End of Task 2)
+To conclude the advanced level, a side-by-side evaluation was conducted between the Tuned Random Forest and the SVM models (Linear & RBF). 
+* Plotted a visually appealing Bar Chart comparing **Accuracy** and **F1-Score**.
+* **Conclusion:** The Random Forest model provided exceptional interpretability and precision, while the SVM (RBF) demonstrated robust handling of complex, non-linear boundaries. Both models serve as strong deployment candidates depending on the prioritized business metric.
+
+---
+
+##  Setup & Execution
+1. Clone this repository to your local machine.
+2. Ensure you have the required dataset (`churn-bigml-80.csv`) in the root directory.
+3. Install the required libraries: `pandas`, `numpy`, `matplotlib`, `scikit-learn`.
+4. Open the Jupyter Notebooks and run the cells sequentially to reproduce the models, metrics, and visual plots.
 ---
 
 ##  Technologies & Libraries Used
